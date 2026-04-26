@@ -485,8 +485,6 @@ curl -X POST http://localhost:5001/api/appointments \
 | mongoose | ^7.0.0 | MongoDB ODM |
 | dotenv | ^16.0.0 | Environment variables |
 | joi | ^17.0.0 | Schema validation |
-| jsonwebtoken | ^9.0.0 | JWT authentication |
-| bcryptjs | ^2.4.0 | Password hashing |
 
 ---
 
