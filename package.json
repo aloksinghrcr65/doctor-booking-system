@@ -1,0 +1,42 @@
+{
+  "name": "doctor-booking-system",
+  "version": "1.0.0",
+  "description": "his project is a backend system for booking doctor appointments where multiple doctors can manage their schedules. Users can check available time slots based on a doctor’s working hours and book appointments accordingly. The system ensures that no slot gets double-booked by handling availability and concurrency at the database level. It’s built using Node.js, Express, and MongoDB with a focus on clean architecture and proper validation.",
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb",
+    "mongoose",
+    "backend",
+    "rest-api",
+    "appointment-booking",
+    "doctor-booking",
+    "scheduling",
+    "slot-management"
+  ],
+  "homepage": "https://github.com/aloksinghrcr65/doctor-booking-system#readme",
+  "bugs": {
+    "url": "https://github.com/aloksinghrcr65/doctor-booking-system/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aloksinghrcr65/doctor-booking-system.git"
+  },
+  "license": "ISC",
+  "author": "Alok Singh (https://github.com/aloksinghrcr65)",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "joi": "^18.1.2",
+    "mongoose": "^9.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
